@@ -1,0 +1,105 @@
+*{
+  display: border-box;
+}
+
+html,body{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: black;
+}
+
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+
+}
+
+.poster{
+  background-color: white;
+  display: flex;
+  padding-bottom: 2em;
+  width:85vw;
+}
+
+.poster>div{
+  width:50%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  background-color:#ff7324;
+}
+
+.header p{
+  padding-left: 3px;
+  padding-right: 3px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contentContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer img{
+  height: 25em;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title img{
+  width: 40vw;
+  height: 3vh;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  font-stretch: extra-condensed;
+
+}
+.contentContainer{
+  display: flex;
+  font-family: "Open sans",sans-serif;
+  font-size: 14px;
+}
+
+h2{
+  font-size: 15px;
+}
+
+.contentContainer > div{
+  width: 50%;
+  font-weight: lighter;
+}
